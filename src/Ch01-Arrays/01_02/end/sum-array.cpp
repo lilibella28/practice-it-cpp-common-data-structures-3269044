@@ -13,7 +13,7 @@ int calculateSum(const int arr[], size_t size)
     {
         return arr[0];
     }
-    for (size_t i = 0; i < size; i++)
+    for (int i = 0; i < size; i++)
     {
         sumElement += arr[i];
     }
